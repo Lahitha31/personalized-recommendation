@@ -32,3 +32,5 @@ models/
 
 # Docker
 *.log
+feast_repo/
+tests/

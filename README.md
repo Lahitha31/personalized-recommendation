@@ -42,11 +42,6 @@ uvicorn src.api.main:app --host 0.0.0.0 --port 8000
 
 # 8) Try it
 curl "http://localhost:8000/recommend?user_id=42&k=10"
-```
-
----
-
-## Project Structure
 
 ```
 
@@ -67,7 +62,7 @@ docker run -p 8000:8000 personalized-recs:latest
 
 ---
 
-## CI/CD (GitHub Actions)
+## CI/CD 
 
 - Lint & format (ruff, black)
 - Type check (mypy)
